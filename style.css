@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin: 130px 0;
+}
+
+p {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* header navbar area */
+
+header {
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+nav h2 {
+    font-size: 40px;
+}
+
+nav .primary-color {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #474747;
+}
+
+.primary-button {
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 50px;
+}
+
+/* header navbar area end */
+
+/* header banner area */
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.info h3 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.info h1 {
+    color: #181818;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.info p {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.second-button {
+    padding: 20px 50px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dubble-button .primary-button {
+    margin-right: 10px;
+}
+
+/* header banner area end */
+/* about section start */
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-section {
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.section-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-container .info-title {
+    color: #757575;
+    font-size: 18px;
+}
+
+.info-container .info-description {
+    color: #474747;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* about section end */
+
+/* what i do section start */
+
+.what-i-do-section {
+    text-align: center;
+}
+
+.what-i-do-section .section-description {
+    padding: 0 150px;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.skills {
+    background: #ffffff;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 30px 0;
+    color: #181818;
+}
+
+.skills-description {
+    font-size: 14px;
+    color: #757575;
+    line-height: 30px;
+    ;
+}
+
+/* what i do section end */
+
+/* my resume section start */
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.my-resume-section .section-title {
+    margin-bottom: 130px;
+}
+
+.section-subtitle {
+    font-size: 28px;
+    color: #474747;
+}
+
+.title-description {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+h5 {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.resume-container p {
+    color: #757575;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+.resume-item {
+    border-bottom: 2px solid #D1D1D1;
+    margin-top: 30px;
+    padding-right: 40px;
+}
+
+.my-resume-section .primary-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.my-resume-section {
+    text-align: center;
+}
+
+/* my resume section end */
