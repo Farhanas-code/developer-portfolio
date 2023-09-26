@@ -110,7 +110,7 @@ nav ul li {
 /* header banner area end */
 /* about section start */
 main {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -251,3 +251,47 @@ h5 {
 }
 
 /* my resume section end */
+
+/* footer area start */
+
+footer {
+    padding: 130px 0;
+    background: #FFF8F3;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    gap: 120px;
+    text-align: left;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.lets-connect p {
+    color: #474747;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    padding: 20px 30px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.icons a {
+    margin-right: 20px;
+}
+
+/* footer area end */
